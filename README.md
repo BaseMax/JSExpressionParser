@@ -2,6 +2,8 @@
 
 A tiny web-based json parser to handle and analyze a mathematical expression (order of operations)
 
+You can check online preview at [here](https://basemax.github.io/JSExpressionParser/) or open `index.html` file localy at your browser.
+
 ### References
 
 https://www.youtube.com/watch?v=6YyvyvBAZr8
