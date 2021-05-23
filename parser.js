@@ -1,17 +1,7 @@
-// /
-const handleDivideSeparatedExpression = (expression) => {
-  const numbersString = expression.split("/");
-  const numbers = numbersString.map(noStr => +noStr);
-  const initialValue = 1.0;
-  // TODO: check no should ne be zero! (runtime error)
-  const result = numbers.reduce((acc, no) => acc / no, initialValue);
-
-  return result;
-};
 // *
 const handleMultiplicationSeparatedExpression = (expression) => {
   const numbersString = expression.split("*");
-  const numbers = numbersString.map(noStr => handleDivideSeparatedExpression(noStr));
+  const numbers = numbersString.map(noStr => +noStr);
   const initialValue = 1.0;
   const result = numbers.reduce((acc, no) => acc * no, initialValue);
 
